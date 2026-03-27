@@ -1,0 +1,32 @@
+.auth-container{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.auth-box{
+width:300px;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.auth-box input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.auth-box button{
+padding:10px;
+background:red;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.auth-box p{
+color:blue;
+cursor:pointer;
+}

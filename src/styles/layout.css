@@ -1,0 +1,31 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden; /* important */
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  margin-left: 80px; 
+  transition: 0.3s;
+  scrollbar-width: none; 
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.content.shift {
+  margin-left: 230px; 
+}
+ 
